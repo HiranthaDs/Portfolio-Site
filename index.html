@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hirantha Dias - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#campus-projects">Campus</a></li>
+            <li><a href="#github-projects">GitHub</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hirantha Dias</h1>
+            <p>Full-Stack Web Developer & Software Engineer</p>
+        </div>
+    </section>
+
+    <div class="scroll-parallax">
+        <div class="parallax-text" id="parallaxText">HIRANTHA DIAS 2025</div>
+    </div>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/468393336_1230278194740836_5431302230330008980_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=669761&_nc_ohc=dwMz9Zcq260Q7kNvgGQrX5z&_nc_oc=AdgHNS9pEX33rebmgqJxMnPCfRvR580zET4NVjnQxuYPYWXQ7WxJar5cOumdaTlGkWy8C7GoW7HiKNxHmF0FvDOK&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=ALSzfMNPohDMyMtUY_FbIM2&oh=00_AYGxaGRFD7CKnvPIVk1WBXJwaxCYz71BOgDWW6xP0XnNEQ&oe=67D6FF82" alt="Profile" class="profile-image">
+            <div>
+                <p>Hello, I'm Hirantha Dias, a passionate Full-Stack Web Developer & Software Engineer. With a strong foundation in both front-end and back-end development, I enjoy building efficient, scalable, and user-friendly applications. I have experience in various technologies such as Java, Node.js, Express.js, Python, and more. I thrive on challenges and am constantly seeking to learn and grow by exploring new technologies and tools.</p>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C/C++</span>
+                </div>
+                <a href="https://drive.google.com/file/d/1TG-A_xCUr0TujmJqDnKS5F63FR3XSYuE/view?usp=sharing" class="download-btn" target="_blank">
+                    Download CV <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="campus-projects" class="projects">
+        <h2 class="section-title">Campus Projects</h2>
+        <div id="campus-projects-container" class="projects-grid"></div>
+    </section>
+
+    <section id="github-projects" class="projects">
+        <h2 class="section-title">GitHub Projects</h2>
+        <div id="github-repos-container" class="projects-grid"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mkgjnqlw" method="POST" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/hirantha-dias/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HiranthaDs" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.tweeter.com/hirantha_dias/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/hirantha_dias/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-text">&copy; 2024 Hirantha D.S. All rights reserved</p>
+            <p class="footer-text">Built with <i class="fas fa-heart" style="color: #e74c3c;"></i> and <i class="fas fa-coffee"></i></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
